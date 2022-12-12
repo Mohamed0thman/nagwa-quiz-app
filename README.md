@@ -19,8 +19,6 @@
 
 ## Endpoints
 
-- {app_url}/ => home page with welcome message
-
 ### Quiz
 
 - {app_url}/api/quiz/questions => listing random ten questions (get)
@@ -28,11 +26,11 @@
 
 #### Requirements
 
-    - endpoints( result) require student score as number by %
+    - result endpoint require student's score as number by %
 
 ## Error Handling
 
-- all point when data is invalid will return errors with status 422 and message
+-  when data is invalid will return errors with status 422 and message
 
 ## Available Scripts
 
