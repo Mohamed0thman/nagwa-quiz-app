@@ -4,10 +4,11 @@
 
 # Quiz server
 
-- cd server
-- npm install 
-
----
+```shell
+    cd server
+    npm install
+    npm run dev
+```
 
 ## Features
 
@@ -58,3 +59,16 @@
 ```shell
     npm run test
 ```
+
+# Quiz client
+
+```shell
+    cd client
+    npm install
+    npm run dev
+```
+
+## Features
+
+- questions screen
+- rank screen

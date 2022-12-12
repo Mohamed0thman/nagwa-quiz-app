@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 44%;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  html {
+    font-size: 38%;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.2rem;
+  color: #000000;
+  overflow: hidden; /* Hide vertical scrollbar */
+  height: 100vh;
+  background-color: #ececec;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.subtitle {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+.larg-title {
+  font-size: 9.5rem;
+  font-weight: 700;
+}
+
+.custom-btn {
+  width: 240px;
+  height: 50px;
+  font-size: 2.4rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.custom-btn__number {
+  background: white;
+  color: black;
+  border-radius: 12px;
+  width: 45px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.custom-btn__label {
+  color: white;
+}
+
+.primary-gradient {
+  background: linear-gradient(270deg, #3e45ed 0%, #4c92d3 100%) !important;
+}
+
+.black-gradient {
+  background: linear-gradient(90deg, #4e4f54 0%, #000000 97.08%) !important;
+}
+
+.answer-gradient {
+  background: linear-gradient(270deg, #ff0099 0%, #2400ff 100%);
+}
+
+.correct {
+  background: linear-gradient(
+    270deg,
+    #3eed50 0%,
+    #26bb43 81.66%,
+    #21b041 100%
+  ) !important;
+}
+
+.incorrect {
+  background: linear-gradient(270deg, #ed3e3e 0%, #fb7777 100%) !important;
+}
+
+.red-progress-bar .progress-bar {
+  background-color: #fc7373;
+}
+
+.yellow-progress-bar .progress-bar {
+  background-color: #fcd673;
+}
+
+.green-progress-bar .progress-bar {
+  background-color: #97fc73;
+}
+
+.blue-progress-bar .progress-bar {
+  background-color: #73bafc;
+}
